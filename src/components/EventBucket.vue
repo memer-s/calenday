@@ -20,15 +20,30 @@ export default {
 <style scoped>
 
 section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+section h3 {
+  font-family: 'Montserrat';
 }
 
 main {
-  max-width: 800px;
+  padding: 4px;
+  max-width: 600px;
+  width: 92vw;
+  background-color: #fff;
+  border-radius: 7px;
 }
 
 .event {
+  color: #fff;
+  width: auto;
   padding: 10px;
+  margin: 10px;
   border-radius: 10px;
   background-color: #458fff;
 }
@@ -40,6 +55,10 @@ p {
 }
 
 h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 34px;
   text-align: center;
+  font-weight: 400;
 }
 </style>
